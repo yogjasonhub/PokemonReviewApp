@@ -5,7 +5,7 @@ using PokemonReviewApp.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+//this is a comment
 builder.Services.AddControllers();
 builder.Services.AddTransient<Seed>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
